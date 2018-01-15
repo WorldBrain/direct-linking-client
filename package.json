@@ -5,6 +5,7 @@
   "homepage": "https://memex.link",
   "license": "MIT",
   "author": "WorldBrain",
+  "main": "demo.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/WorldBrain/direct-linking-client.git"
