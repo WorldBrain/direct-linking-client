@@ -1,6 +1,6 @@
 {
   "name": "direct-linking-client",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.1",
   "description": "Client for direct-linking service memex.link",
   "homepage": "https://memex.link",
   "license": "MIT",
