@@ -1,0 +1,25 @@
+{
+  "name": "@annotator/fragment-identifier",
+  "version": "0.0.0",
+  "description": "Convert to and from Web Annotation fragment identifiers.",
+  "homepage": "https://annotator.apache.org",
+  "license": "Apache-2.0",
+  "author": "Apache Software Foundation",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://gitbox.apache.org/repos/asf/incubator-annotator.git"
+  },
+  "scripts": {
+    "prepare": "pegjs --format es fragment.pegjs"
+  },
+  "devDependencies": {
+    "pegjs": "^0.11.0-dev.200"
+  },
+  "peerDependencies": {
+    "@babel/runtime": "^7.0.0-beta.32"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
